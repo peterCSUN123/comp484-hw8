@@ -1,0 +1,144 @@
+/* Color Palette
+header - #294653
+footer - #294653
+work-experience - #eef4f5
+education - #FFFFFF
+*/
+
+/* Global styles 
+------------------------------------*/
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    background: white;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Playfair Display", Georgia;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 0;
+    font-family: "Libre Caslon Condensed";
+    font-weight: 700;
+}
+h2{
+    font-size: 24px;
+    margin: 4px 0 12px;
+    font-family: "Libre Caslon Condensed";
+    font-weight: 700;
+    margin-top: 0;
+}
+
+main {
+    flex: 1;
+}
+p {
+    font-size: 20px;
+}
+
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#294653;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000; /*Keeps the menu above other contents */
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.education, .technical-skills, .work-experience{
+    background-color: #eef4f5;;
+}
+.certification, .technical-projects {
+    background-color: #FFFFFF;;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background-color: #294653;
+    color: white;
+}
+.contact-info a {
+    color: #D6EEF2;
+    padding: 10px;
+    display: inline-block;
+}
+footer{
+    text-align: center;
+}
+.profile-img{
+    border-radius: 50%;
+    
+    /*width: 300px;
+    float: left;
+    margin-right: 30px; */
+}
+.header{
+    text-align: center;
+    padding-top: 70px;
+}
+.column-narrow{
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide{
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+
+/* Work Experience
+------------------------------------*/
+
+
+
+/* Education
+------------------------------------*/
+
+
+/* Certification */
+
+
+/* Technical Skills */
+
+
+/* Technical Projects */
+
+.technical-projects {
+    background: linear-gradient(
+        rgba(255,255,255,0.9),
+        rgba(238, 244, 245, 0.7)),
+
+        url("../images/bg.jpg");
+        
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
